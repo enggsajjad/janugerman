@@ -50,3 +50,7 @@ Open `BSK_B2/index.html` to access both tests.
 
 ## A2 complete
 The A2 folder contains nine linked modules: vocabulary, grammar, sentences, reading, listening, speaking, writing, model exam, and telc exam format.
+
+
+## Complete CEFR structure
+A1, A2, B1, B2, C1 and C2 each contain nine linked modules. The BSK_B2 section and its vocabulary tests are preserved.
