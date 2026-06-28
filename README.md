@@ -1,27 +1,16 @@
 # BSK B2 – öffentliches GitHub-Pages-Projekt
 
-Eigenständige statische Website für interaktive Vokabeltests des B2-Berufssprachkurses.
+## Dateien
+- `index.html` – Startseite
+- `gleichstellung-arbeitswelt.html` – Vokabeltest Gleichstellung & Arbeitswelt
+- `kommunikation-arbeitsplatz.html` – Vokabeltest Kommunikation am Arbeitsplatz
 
-## Enthalten
+## Veröffentlichung
+Lade **alle Dateien direkt in das Stammverzeichnis** des GitHub-Repositories hoch. Danach:
 
-- Startseite `index.html`
-- Vokabeltest „Gleichstellung & Arbeitswelt“
-- Vokabeltest „Kommunikation am Arbeitsplatz“
-- Multiple Choice, Lückentext und Wort-Definition-Modus
-- Responsive Darstellung und Dunkelmodus
+1. `Settings` → `Pages`
+2. `Deploy from a branch`
+3. Branch `main`, Ordner `/(root)`
+4. Speichern
 
-## Auf GitHub Pages veröffentlichen
-
-1. Ein neues **öffentliches** GitHub-Repository erstellen, z. B. `bsk-b2-vokabeltraining`.
-2. Den Inhalt dieses Ordners direkt in die oberste Ebene des Repositorys hochladen.
-3. Unter **Settings → Pages** wählen:
-   - Source: `Deploy from a branch`
-   - Branch: `main`
-   - Folder: `/(root)`
-4. Speichern.
-
-Die Adresse lautet anschließend normalerweise:
-
-`https://DEIN-BENUTZERNAME.github.io/bsk-b2-vokabeltraining/`
-
-Dieses Projekt besitzt keine Links oder Abhängigkeiten zum privaten A1–C2-Hauptprojekt.
+Wichtig: Nicht einen zusätzlichen Oberordner hochladen. `index.html` muss direkt im Repository-Stamm liegen.
