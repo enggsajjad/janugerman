@@ -52,3 +52,5 @@ filters.forEach(button => button.addEventListener('click', () => {
   activeTopic = button.dataset.filter;
   filterWords();
 }));
+
+function normalizeAnswer(v){return String(v||'').trim().toLowerCase().replace(/\s+/g,' ').replace('.',':').replace('€','').trim()}function checkAnswers(){const fields=[...document.querySelectorAll('[data-answer]')];let ok=0;fields.forEach(el=>{const good=normalizeAnswer(el.dataset.answer);const val=normalizeAnswer(el.value);const match=val===good||good.includes(val)&&val.length>2;el.style.borderColor=match?'#16a34a':'#dc2626';if(match)ok++});const out=document.getElementById('quizResult');if(out)out.textContent=`${ok} von ${fields.length} Antworten richtig.`}function speakText(t){speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(t);u.lang='de-DE';u.rate=.88;speechSynthesis.speak(u)}const wb=document.getElementById('writingBox');if(wb){const wc=document.getElementById('wordCount');wb.addEventListener('input',()=>{wc.textContent=wb.value.trim()?wb.value.trim().split(/\s+/).length:0})}
