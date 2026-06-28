@@ -46,3 +46,7 @@ The project now includes a dedicated `BSK_B2/` section with two interactive voca
 - Kommunikation am Arbeitsplatz (13 terms)
 
 Open `BSK_B2/index.html` to access both tests.
+
+
+## A2 complete
+The A2 folder contains nine linked modules: vocabulary, grammar, sentences, reading, listening, speaking, writing, model exam, and telc exam format.
