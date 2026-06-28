@@ -36,3 +36,13 @@ Add a fourth column to the vocabulary table, e.g. `<th>Urdu</th>`, and add an Ur
 - Add A2–C2 folders using the A1 structure.
 - Add quizzes and progress tracking with localStorage.
 - Add custom audio files where browser speech is insufficient.
+
+
+## B2-Berufskurs (BSK_B2)
+
+The project now includes a dedicated `BSK_B2/` section with two interactive vocabulary tests:
+
+- Gleichstellung & Arbeitswelt (11 terms)
+- Kommunikation am Arbeitsplatz (13 terms)
+
+Open `BSK_B2/index.html` to access both tests.
